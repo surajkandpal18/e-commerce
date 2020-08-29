@@ -9,7 +9,7 @@ export default function CollectionPreview({ title, items }) {
         {items &&
           items
             .filter((item, idx) => idx < 4)
-            .map((item) => <CollectionItem key={item.id} item={item} />)}
+            .map((item) => <CollectionItem key={item.id} item=  {item} />)}
       </div>
     </div>
   );
